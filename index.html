@@ -8,29 +8,29 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
-    <!-- <div class="header">
-        <h3>THE GREAT</h3>
-        <h1>RGB (<span id="red">0</span>, 
-               <span id="green">0</span>, 
-               <span id="blue">0</span>)
-        </h1>
-        <h3>GUESSING GAME</h2>
-    </div> -->
-    <!-- <div class="controller">
-        <button>NEW COLOUR</button>
-        <button>TryAgain</button>
-        <button>EASY</button>
-        <button>HARD</button>
-    </div> -->
-    <div class="container">
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-            <div class="square"></div>
-    </div>
-
+<h1 id="header">
+    The great 
+    <br>
+    <span id="selected-color">rgb(0, 0, 0)</span> 
+    <br>
+    guessing game
+</h1>
+<div id="controller">
+    <button id="options" class="btn-controller" >new color</button>
+    <span id="results">try again!!</span>
+    <button id="hard" class="btn-controller">hard</button>
+    <button id="easy" class="btn-controller">easy</button>
+</div>
+<div id="group1">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+<div id="group2">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
 <script src="main.js"></script>
 </body>
 </html>
